@@ -7,9 +7,9 @@ function ExperienceSection() {
             <h1 className='text-4xl font-bold self-center'>
                 Experience
             </h1>
-            
+
             {ExperienceData.map((exp, index) => (
-                <Experience 
+                <Experience
                     key={index}
                     title={exp.title}
                     date={exp.date}
