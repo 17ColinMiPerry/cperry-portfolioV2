@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-function Experience({ title, date, bullets, isEven }) {
+function Experience({ title, subtitle, date, bullets, isEven }) {
     return (
         <motion.div 
             className={`flex flex-col gap-1 justify-start items-start w-full md:self-${isEven ? 'end' : 'start'}`}
@@ -9,8 +9,11 @@ function Experience({ title, date, bullets, isEven }) {
             viewport={{ once: true }}
             transition={{ duration: 1.5 }}
         >
-            <div className="flex flex-col sm:flex-row gap-2 justify-between w-full">
-                <h1 className='text-xl font-bold mr-2 sm:mr-4 break-words'>{title}</h1>
+            <div className="flex flex-col sm:flex-row justify-between w-full">
+                <div className='flex flex-col'>
+                    <h1 className='text-xl font-bold mr-2 sm:mr-4 break-words'>{title}</h1>
+                    <h2 className='text-lg font-semibold text-gray-400'>{subtitle}</h2>
+                </div>
                 <div className='shrink-0 self-start mt-1 sm:mt-0'>
                     <span className='font-semibold text-gray-400 bg-gray-700/50 rounded-md px-2 py-1 whitespace-nowrap'>{date}</span>
                 </div>
