@@ -41,14 +41,16 @@ function Home() {
           <TechStack />
         </motion.div>
 
+        <div className='max-w-[800px] w-full'>
         <motion.div
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.25, delay: 0.75 }}
           className='w-full'
         >
-          <ProjectBlurb />
-        </motion.div>
+            <ProjectBlurb />
+          </motion.div>
+        </div>
 
         <ExperienceSection />
 
