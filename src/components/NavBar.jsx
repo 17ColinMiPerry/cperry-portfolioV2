@@ -19,7 +19,7 @@ function NavBar() {
     style={{ position: 'sticky', top: '16px' }}
     >
         <div className="bg-gray-800/50 p-4 rounded-xl backdrop-blur-md shadow-lg border border-white/10">
-            <div className="flex gap-6 md:gap-12 justify-start">
+            <div className="flex gap-6 lg:gap-12 justify-start">
                 {navPages.map((page) => (
                     <Link to={page.path} key={page.name} className={`font-medium text-xl transition duration-300 ease-in-out ${isActive(page.path) ? 'text-purple-500' : 'text-gray-200 hover:text-purple-400'}`}>{page.name}</Link>
                 ))}

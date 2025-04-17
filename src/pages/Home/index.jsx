@@ -15,18 +15,18 @@ function Home() {
 
   return (
     <div className='w-full flex flex-col items-center justify-center'>
-      <div className='flex flex-col max-w-[1000px] w-full justify-center items-center mt-16 px-4 md:px-8 gap-16'>
+      <div className='flex flex-col max-w-[1000px] w-full justify-center items-center mt-16 px-4 lg:px-8 gap-16'>
         <motion.div
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.25, delay: 0.25 }}
         >
-          <div className='flex flex-col md:flex-row w-full justify-center items-center md:justify-start md:items-start'>
-          <div className='flex order-2 md:order-1 md:w-3/5 p-4 flex-col justify-center items-center md:justify-start md:items-start gap-8'>
+          <div className='flex flex-col lg:flex-row w-full justify-center items-center lg:justify-start lg:items-start'>
+          <div className='flex order-2 lg:order-1 lg:w-3/5 p-4 flex-col justify-center items-center lg:justify-start lg:items-start gap-8'>
             <AboutMeText />
             <SocialMediaIcons />
           </div>
-          <div className='flex order-1 md:order-2 md:w-2/5 p-4 justify-center items-center mb-8 md:mb-0'>
+          <div className='flex order-1 lg:order-2 lg:w-2/5 p-4 justify-center items-center mb-8 lg:mb-0'>
             <ProfilePhoto />
           </div>
         </div>
