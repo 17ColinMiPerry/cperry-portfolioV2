@@ -10,7 +10,7 @@ import ProjectBlurb from './appearance/ProjectBlurb';
 
 function Home() {
   useEffect(() => {
-    window.scrollTo(0, 0); // Scrolls to the top of the page
+    window.scrollTo(0, 0);
   }, []);
 
   return (

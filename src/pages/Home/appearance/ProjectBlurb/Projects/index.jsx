@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 
-// Project data with links
 const projects = [
     {
         name: "CNN for Semiconductor Wafer Defect Detection",

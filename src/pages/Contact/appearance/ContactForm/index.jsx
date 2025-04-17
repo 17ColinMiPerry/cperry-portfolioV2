@@ -29,7 +29,6 @@ function ContactForm() {
                     subject: '',
                     message: ''
                 });
-                // Reset success message after 5 seconds
                 setTimeout(() => {
                     setStatus(prev => ({ ...prev, success: false }));
                 }, 5000);
