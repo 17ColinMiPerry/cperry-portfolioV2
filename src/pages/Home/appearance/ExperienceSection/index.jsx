@@ -6,6 +6,7 @@ const experienceData = [
         subtitle: "Process Development Engineer",
         date: "October 2023 - December 2024",
         bullets: [
+            "Aided in the research of companies including Apple, Boeing, and TSMC by providing research fabrication expertise and completing research projects in a foundry environment",
             "Created a parameter validation tool using Python and PyQt to validate and optimize wafer bonding parameters",
             "Developed a standard lithography process for i-line stepper and contact aligners to assist in etch recipe optimization through the employment of Design of Experiment (DOE) principles",
             "Applied Statistical Process Control (SPC) methods to track the performance of metrology equipment leading to improved performance and reduced tool downtime",
