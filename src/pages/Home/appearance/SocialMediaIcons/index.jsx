@@ -10,7 +10,7 @@ function SocialMediaIcons() {
             <Link to="https://github.com/17ColinMiPerry">
                 <SiGithub className='w-8 h-8 opacity-100 hover:opacity-60 transition duration-300' />
             </Link>
-            <Link to="mailto:cperry27@g.ucla.edu">
+            <Link to="mailto:17colinmiperry@gmail.com">
                 <SiGmail className='w-8 h-8 opacity-100 hover:opacity-60 transition duration-300' />
             </Link>
         </div>

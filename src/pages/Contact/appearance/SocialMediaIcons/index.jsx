@@ -21,11 +21,11 @@ function SocialMediaIcons() {
                 </Link>
             </div>
             <div className='flex flex-row gap-4 items-center'>
-                <Link to="mailto:cperry27@g.ucla.edu">
+                <Link to="mailto:17colinmiperry@gmail.com">
                     <SiGmail className='w-8 h-8 opacity-100 hover:shadow-sm hover:opacity-60 transition duration-300' />
                 </Link>
-                <Link to="mailto:cperry27@g.ucla.edu">
-                    <h1 className='text-purple-400 hover:text-purple-500 transition duration-300'>Cperry27@g.ucla.edu</h1>
+                <Link to="mailto:17colinmiperry@gmail.com">
+                    <h1 className='text-purple-400 hover:text-purple-500 transition duration-300'>17colinmiperry@gmail.com</h1>
                 </Link>
             </div>
         </div>
