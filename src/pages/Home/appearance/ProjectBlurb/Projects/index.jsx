@@ -2,6 +2,11 @@ import { motion } from 'framer-motion';
 
 const projects = [
     {
+        name: "FitFolio",
+        link: "https://github.com/17ColinMiPerry/fitfolio-v3",
+        description: "A fitness tracker build with a React/Tailwind frontend and a an Express/SQLite backend that allows users to track their workouts and progress"
+    },
+    {
         name: "CNN for Semiconductor Wafer Defect Detection",
         link: "https://github.com/17ColinMiPerry/wafer-defect-CNN",
         description: "Convolutional Neural Network in Python using PyTorch trained to detect and classify defects and other anomalies on the surface of semiconductor wafers"
