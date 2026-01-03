@@ -24,3 +24,4 @@ dist-ssr
 .vercel
 .todo
 .env
+.env*.local
