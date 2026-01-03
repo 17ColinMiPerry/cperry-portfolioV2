@@ -16,14 +16,14 @@ This portfolio website serves as my digital presence, highlighting my journey as
 
 ## Features
 
-* 🎨 Modern, responsive design
-* ✨ Smooth animations and transitions
-* 📱 Mobile-first approach
-* 🎯 Interactive project showcase
-* 💼 Professional experience timeline
-* 🛠️ Skills and tech stack display
-* 📬 Contact form with email integration
-* 🔗 Social media integration
+* Modern, responsive design
+* Smooth animations and transitions
+* Mobile-first approach
+* Interactive project showcase
+* Professional experience timeline
+* Skills and tech stack display
+* Contact form with email integration
+* Social media integration
 
 ## Getting Started
 
