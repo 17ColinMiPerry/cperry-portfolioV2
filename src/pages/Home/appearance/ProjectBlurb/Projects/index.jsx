@@ -4,25 +4,25 @@ const projects = [
     {
         name: "FitFolio",
         link: "https://github.com/17ColinMiPerry/fitfolio-v3",
-        description: "A fitness tracker build with a React/Tailwind frontend and a an Express/SQLite backend that allows users to track their workouts and progress",
+        description: "A personal fitness tracking system built with a React and TailwindCSS frontend and and Express and SQLite backend for structured exercise logging and and progress tracking",
         tech: ["React", "Tailwind", "Express", "SQLite"]
     },
     {
         name: "AnythingTUI",
-        link: "https://github.com/17ColinMiPerry/fitfolio-v3",
-        description: "A TUI application for accessing AnythingLLM workspaces",
+        link: "https://github.com/17ColinMiPerry/anything-tui",
+        description: "A TUI built in Golang + Bubbletea that provids full interactive to AnythingLLM workspaces, enabling highly configurable multi-workspace LLM interaction directly from the terminal",
         tech: ["Go", "JavaScript", "React", "Express"]
     },
     {
         name: "Journal Club",
-        link: "https://github.com/17ColinMiPerry/fitfolio-v3",
-        description: "A platform for sharing and discussing articles and journals in academic settings",
+        link: "https://github.com/17ColinMiPerry/journal-clubV2",
+        description: "A real-time collaboration platform for research groups built with React and TypeScript, Express, Firebase auth, and Firestore live synchronization",
         tech: ["TypeScript", "React", "Express", "Firebase", "Firestore"]
     },
     {
         name: "Wafer Defect Detection CNN",
         link: "https://github.com/17ColinMiPerry/wafer-defect-CNN",
-        description: "Convolutional Neural Network in Python using PyTorch trained to detect and classify defects and other anomalies on the surface of semiconductor wafers",
+        description: "A Convolutional Neural Network in Python using PyTorch trained to detect and classify defects and other anomalies on the surface of semiconductor wafers",
         tech: ["Python", "PyTorch", "NumPy", "CNN"]
     },
     {
