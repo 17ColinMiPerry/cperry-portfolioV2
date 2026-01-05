@@ -20,7 +20,7 @@ const projects = [
         tech: ["TypeScript", "React", "Express", "Firebase", "Firestore"]
     },
     {
-        name: "CNN for Semiconductor Wafer Defect Detection",
+        name: "Semiconductor Wafer Defect Detection CNN",
         link: "https://github.com/17ColinMiPerry/wafer-defect-CNN",
         description: "Convolutional Neural Network in Python using PyTorch trained to detect and classify defects and other anomalies on the surface of semiconductor wafers",
         tech: ["Python", "PyTorch", "NumPy", "CNN"]
