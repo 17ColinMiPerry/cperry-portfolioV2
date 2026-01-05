@@ -1,4 +1,5 @@
 import Experience from './Experience';
+import { motion } from 'framer-motion';
 
 const experienceData = [
     {
@@ -42,22 +43,38 @@ const experienceData = [
 
 function ExperienceSection() {
     return (
-        <div className='flex flex-col gap-16 justify-start items-start w-full'>
-            <h1 className='text-4xl font-bold self-center'>
+        <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+            className='flex flex-col gap-0 justify-start items-start w-full'
+        >
+            <h1 className='text-4xl font-bold self-center mb-12'>
                 Experience
             </h1>
 
-            {experienceData.map((exp, index) => (
-                <Experience
-                    key={index}
-                    title={exp.title}
-                    subtitle={exp.subtitle}
-                    date={exp.date}
-                    bullets={exp.bullets}
-                    isEven={index % 2 !== 0}
-                />
-            ))}
-        </div>
+            {/* Timeline container */}
+            <div className="relative w-full">
+                {/* Vertical timeline line */}
+                <div className="absolute left-4 md:left-6 top-0 bottom-0 w-0.5 bg-gradient-to-b from-purple-500 via-blue-500 to-purple-500/20" />
+
+                {experienceData.map((exp, index) => (
+                    <div key={index} className="relative pl-12 md:pl-16 pb-12 last:pb-0">
+                        {/* Timeline dot */}
+                        <div className="absolute left-2.5 md:left-4.5 top-1 w-3 h-3 md:w-4 md:h-4 rounded-full bg-purple-500 border-2 border-slate-950 shadow-lg shadow-purple-500/50" />
+
+                        <Experience
+                            title={exp.title}
+                            subtitle={exp.subtitle}
+                            date={exp.date}
+                            bullets={exp.bullets}
+                            index={index}
+                        />
+                    </div>
+                ))}
+            </div>
+        </motion.div>
     )
 }
 

@@ -5,6 +5,7 @@ import NavBar from './components/NavBar';
 import Background from './components/Background';
 import Home from './pages/Home';
 import Contact from './pages/Contact/index';
+import Resume from './pages/Resume';
 import Footer from './components/footer';
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
 
   return (
     <div className='min-h-screen w-full bg-slate-950 text-white'>
-      <Background />      
+      <Background />
       <div className="relative z-10 flex flex-col items-center w-full">
         <Router>
           <NavBar />
@@ -23,6 +24,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/resume" element={<Resume />} />
             </Routes>
           </div>
         </Router>
