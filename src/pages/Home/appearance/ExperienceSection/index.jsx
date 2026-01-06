@@ -3,8 +3,8 @@ import { motion } from 'framer-motion';
 
 const experienceData = [
     {
-        title: "UCLA Nanolab",
-        subtitle: "Process Development Engineer",
+        title: "Process Development Engineer",
+        subtitle: "UCLA Nanolab",
         date: "October 2023 - December 2024",
         bullets: [
             "Aided in the research of companies including Apple, Boeing, and TSMC by providing research fabrication expertise and completing research projects in a foundry environment",
@@ -17,8 +17,8 @@ const experienceData = [
         ]
     },
     {
-        title: "Freelance Web3 Developer",
-        subtitle: "Software Engineer",
+        title: "Fullstack Web3 Developer",
+        subtitle: "GYS",
         date: "June 2021 - September 2022",
         bullets: [
             "Authored and deployed solidity smart contracts, integrating them with a responsive frontend using Web3.js",
@@ -30,8 +30,8 @@ const experienceData = [
         ]
     },
     {
-        title: "UCLA Sensors and Technology Laboratory",
-        subtitle: "Academic Researcher",
+        title: "Academic Researcher",
+        subtitle: "UCLA Sensors and Technology Laboratory",
         date: "February 2020 - June 2021",
         bullets: [
             "Informed future research by analyzing and visualizing device data from over 50 experimental devices using MATLAB",
