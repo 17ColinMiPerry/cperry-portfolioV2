@@ -7,8 +7,8 @@ const experienceData = [
         subtitle: "UCLA Nanolab",
         date: "October 2023 - December 2024",
         bullets: [
-            "Aided in the research of companies including Apple, Boeing, and TSMC by providing research fabrication expertise and completing research projects in a foundry environment",
-            "Created a parameter validation tool using Python and PyQt to validate and optimize wafer bonding parameters",
+            "Provided foundry microfabrication expertise to aid in the research of companies including Apple, Boeing, and TSMC",
+            "Designed and built a PyQt-based wafer bonding parameter validation tool to be used in conjunction with tools valued at >$100,000",
             "Developed a standard lithography process for i-line stepper and contact aligners to assist in etch recipe optimization through the employment of Design of Experiment (DOE) principles",
             "Applied Statistical Process Control (SPC) methods to track the performance of metrology equipment leading to improved performance and reduced tool downtime",
             "Maintained essential cleanroom function through tracking and ordering all laboratory chemical and non-chemical inventory",
