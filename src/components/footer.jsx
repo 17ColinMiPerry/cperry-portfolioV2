@@ -8,12 +8,9 @@ function Footer() {
                 <div className="w-full h-px bg-gradient-to-r from-transparent via-purple-500/50 to-transparent mb-8" />
 
                 <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-                    {/* Tagline */}
                     <p className='text-gray-400 text-sm'>
-                        Building products that make a difference.
+                        {/*ill figure something to put here*/}
                     </p>
-
-                    {/* Social links */}
                     <div className='flex flex-row gap-4'>
                         <a
                             href="https://www.linkedin.com/in/colin-perry-499304180/"
@@ -39,8 +36,6 @@ function Footer() {
                         </a>
                     </div>
                 </div>
-
-                {/* Contact note */}
                 <p className='text-gray-500 text-xs text-center mt-6'>
                     Questions? Email <a href="mailto:cperry.webmaster@gmail.com" className='text-purple-400 hover:text-purple-300 transition-colors duration-300'>cperry.webmaster@gmail.com</a>
                 </p>

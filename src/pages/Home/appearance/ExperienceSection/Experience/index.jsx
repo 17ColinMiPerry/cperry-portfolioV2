@@ -19,7 +19,6 @@ function Experience({ title, subtitle, date, bullets, index }) {
                 </div>
             </div>
 
-            {/* Styled bullet points */}
             <ul className="flex flex-col gap-2.5 w-full mt-2 pl-4">
                 {bullets.map((bullet, idx) => (
                     <li key={idx} className="text-gray-400 text-base leading-relaxed relative pl-5 before:content-[''] before:absolute before:left-0 before:top-2.5 before:w-1.5 before:h-1.5 before:bg-purple-500/60 before:rounded-full">
