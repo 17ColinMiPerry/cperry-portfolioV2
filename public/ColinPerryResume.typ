@@ -4,7 +4,7 @@
 #let phone = "+1 (949) 606-6878"
 #let email = "cperry27@g.ucla.edu"
 #let github = "17ColinMiPerry"
-#let personal-site = "cperry.vercel.app"
+#let personal-site = "cperry.codes"
 
 #show: resume.with(
   top-margin: 0.45in,
@@ -31,16 +31,16 @@
 
 #custom-title("Experience")[
   #work-heading(
-    "Fullstack Software Engineer/OSS Maintainer",
+    "Fullstack Software Engineer (Open Source)",
     "Mintplex Labs",
     "Santa Ana, CA",
     datetime(year: 2025, month: 3, day: 1),
     "Present",
   )[
-    - Owned and shipped critical full-stack features using Node.js and React + JS/TS to hundreds of thousands of users in a project with >50k GitHub stars
-    - Equipped non-agentic models with tool use by implementing the ReAct architecture, enabling reasoning and function calling for complex tasks and user queries
-    - Integrated a selection of additional embedding models for enhanced user experience and model flexibility
-    - Owned UI/UX stabilization, resolving high priority rendering bugs and implemented quality of life changes requested by the community
+    - Owned and shipped user-facing AI agent infrastructure using Node.js used by hundreds of thousands of users, including agent implementations, embedding pipelines, and reliability tooling
+    - Implemented the ReAct architecture to grant Cohere reasoning models with tool-calling, with deduplication safeguards to prevent redundant tool calls
+    - Extended the platform's provider agnostic AI embedding system by integrating OpenRouter embedding models, expanding user choice and flexibility while improving overall user experience
+    - Rapidly prototyped and iterated user-facing React interfaces using AI-assisted tools like Cursor and gemini-cli to ensure a consistent product vision and provide users with a performant and premium experience
   ]
 
   #work-heading(
@@ -50,23 +50,22 @@
     datetime(year: 2023, month: 10, day: 1),
     datetime(year: 2024, month: 12, day: 1),
   )[
-    - Engineered a Python/PyQt control interface with a custom physics library to validate inputs against hardware specifications, protecting wafer fab equipment and preventing \$400,000+ in potential damage
-    - Built strong vendor relationships, negotiated discounts, and reduced inventory purchasing costs by over 20%
-    - Managed laboratory assistants to ensure ISO Class 5 cleanroom standards throughout lab spaces
+    - Engineered a Python/PyQt control interface with a custom physics library to enforce hardware safety constraints, preventing critical user errors that have historically caused >\$100,000 in damages
+    - Executed structured Design of Experiments (DoE) to optimize etch and lithography parameters, delivering reliable recipes that improved process yields and efficiency for all lab users
+    - Directed and managed lab assistants in executing essential lab operations, including chemical and supply ordering, inventory management, and chemical waste removal, ensuring smooth operations and safety
   ]
 
   #work-heading(
-    "Software Engineer/Blockchain Developer",
+    "Fullstack Web3 Engineer",
     "GYS Blockchain Solutions",
     "Mission Viejo, CA",
     datetime(year: 2021, month: 6, day: 1),
     datetime(year: 2022, month: 9, day: 1),
   )[
-    - Authored and deployed Solidity smart contracts, integrating them with Web3.js APIs, and built user interfaces using HTML/CSS and JavaScript
-    - Designed and executed unit tests for smart contract functions with Chai.js to ensure reliability
-    - Developed Python scripts to automate asset generation processes, streamlining development for artists
+    - Engineered full-stack web3 apps using React and Solidity, implementing a CI pipeline with Chai.js unit tests to ensure production reliability for thousands of users
+    - Built internal tools with Python to automate project asset generation, enabling artists to rapidly produce production-ready assets
     - Led a team of 4 software engineers, working with cross-disciplinary teams to meet aggressive deadlines on time and under budget
-    - Contributed to the generation of over \$500,000 in revenue through the design and implementation of the project's tokenomics systems
+    - Drove >\$500,000 in launch revenue through design and implementation of the project's tokenomics system
   ]
 ]
 
@@ -75,10 +74,9 @@
   #project-heading(
     "Journal Club - Scientific Paper Sharing Platform",
   )[
-    - Published a web and mobile application that enables users to post, browse, and discuss scientific papers via a social voting and comment system, supporting real-time contributions within scientific communities
-    - Developed clean and approachable UI/UX using TypeScript with React + Tailwind (webapp) and React Native + Nativewind (mobile)
-    - Integrated Firebase authentication for sign-in and Firestore as a real-time NoSQL database to store user-generated posts, comments, and votes
-    - Defined custom security rules as Express.js middleware to enforce access controls and validate user permissions, securing multi-user interactions
+    - Built a full-stack web and mobile platform for sharing and discussing scientific papers, handling frontend (React/React Native + TypeScript) and backend (Express + Firestore) to deliver real-time user collaboration
+    - Implemented social features (posting, commenting, voting) and access control rules, demonstrating strong user focused product design
+    - Developed secure authentication and multi-user interaction flows with Firebase Auth and Express to ensure safe collaboration in a multi-user environment
   ]
 
   #project-heading(
@@ -93,7 +91,7 @@
 
 #custom-title("Skills")[
   #skills()[
-    - *Languages & Frameworks:* JS/TS, React, React Native, TailwindCSS, Python, Go, C/C++
+    - *Languages & Frameworks:* JS/TS, Node.js, Express.js, React/React Native, TailwindCSS, Python, Go, C++
     - *Backend & Infrastructure:* Kubernetes, Docker, Linux, CI/CD, SQL(PostgreSQL, SQLite), NoSQL(Firestore)
   ]
 ]
