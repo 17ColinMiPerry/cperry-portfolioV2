@@ -3,6 +3,17 @@ import { motion } from 'framer-motion';
 
 const experienceData = [
     {
+        title: "Fullstack Software Engineer (Open Source)",
+        subtitle: "",
+        date: "March 2025 - Present",
+        bullets: [
+            "Owned and shipped user-facing AI agent infrastructure using Node.js to hundreds of thousands of users",
+            "Implemented the ReAct architecture to allow Cohere reasoning models the ability to call tools with robust safeguards including deduplication against redundant repeated tool calls",
+            "Extended offerings of available embedding models by implementing OpenRouter embedding models, giving users expanded choice and flexability, ultimately improving user experience",
+            "Rapidly prototyped and iterated user facing React components using AI tools such as Cursor and gemini-cli to ensure a consistent product vision and provide users with a performant and premium experience",
+        ]
+    },
+    {
         title: "Process Development Engineer",
         subtitle: "UCLA Nanolab",
         date: "October 2023 - December 2024",
