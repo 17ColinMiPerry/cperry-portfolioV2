@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { useEffect } from 'react';
 import emailjs from '@emailjs/browser';
+import { Analytics } from '@vercel/analytics/react';
 import NavBar from './components/NavBar';
 import Background from './components/Background';
 import Home from './pages/Home';
@@ -30,6 +31,7 @@ function App() {
         </Router>
         <Footer />
       </div>
+      <Analytics />
     </div>
   )
 }
